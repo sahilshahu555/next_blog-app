@@ -4,7 +4,7 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <div className=" flex flex-col md:flex-row justify-around items-center gap-10 md:gap-0">
-      <div className="image">
+      <div className="image px-2 md:px-0">
        <Image src="/contact.png" alt="" width={400} height={400}/>
       </div>
       <div className="Form flex-1 ">

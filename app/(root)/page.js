@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-   <div className="flex  flex-col md:flex-row gap-10 justify-around items-center"> 
+   <div className="flex  flex-col md:flex-row gap-10 justify-around items-center px-2 md:px-0"> 
         <div className="Image  ">
           <Image src="/hero.gif" alt="hero" width={400} height={400} className="rounded-2xl"/>
         </div>
-        <div className="Content w-full md:w-1/2 flex flex-col gap-10"> 
+        <div className="Content w-full md:w-1/2 flex flex-col gap-10 "> 
            <h1 className="text-2xl md:text-4xl font-bold">Creative Blog Website</h1>
            <p>Managing your time while blogging might feel like a chore. But, there are some apps and websites designed for bloggers like you. </p>
            <div className="Buttons flex gap-10 text-black ">

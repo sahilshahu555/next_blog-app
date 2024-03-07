@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className=" flex flex-col md:flex-row justify-around items-center gap-20 md:gap-0">
+    <div className=" flex flex-col md:flex-row justify-around items-center gap-20 md:gap-0 px-2 md:px-0">
       <div className='w-full  md:w-1/2 md:p-5 flex flex-col gap-5'> 
         <h2 className="text-md md:text-lg text-indigo-500 font-semibold">About Blogs</h2>
         <h1 className=" text-3xl md:text-4xl font-bold">We create digital ideas that are bigger, bolder, braver and better</h1>
