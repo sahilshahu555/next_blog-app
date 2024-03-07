@@ -8,3 +8,9 @@
   box-sizing:border-box;
 }
 
+input,textarea{
+  padding:5px;
+  width:100%;
+  border-radius: 5px;
+  color: black;
+}

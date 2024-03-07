@@ -12,6 +12,10 @@ const Links = () => {
             path:"/"
         },
         {
+          title:"Blogs",
+          path:"/blog"
+        },
+        {
             title:"About",
             path:"/about"
         },
@@ -19,10 +23,7 @@ const Links = () => {
             title:"Contact",
             path:"/contact"
         },
-        {
-            title:"Blog",
-            path:"/blog"
-        },
+        
     ]
 
 //temp
@@ -30,20 +31,20 @@ const Links = () => {
     const isAdmin=true;
 
   return (
-    <div className='flex flex-col md:flex-row gap-5 md:gap-10 items-center'>
+    <div className='flex flex-col lg:flex-row gap-5 md:gap-10 items-center'>
       {navLinks.map((elm,i)=>(
-        <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer`}>
+        <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer hover:scale-95`}>
           {elm.title}
         </Link>
             ))}
 
       {session ?(
         <>
-        {isAdmin && <Link href="/admin" className={`${pathName === "/admin" && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer`}>Admin</Link>}
-        <button className="py-1 px-3 bg-white text-[#28144c] rounded curser-pointer">Logout</button>
+        {isAdmin && <Link href="/admin" className={`${pathName === "/admin" && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer hover:scale-95`}>Admin</Link>}
+        <button className="py-1 px-3 bg-white text-[#28144c] rounded curser-pointer hover:scale-95">Logout</button>
         </>
       ):(
-        <div><Link href="/login" className="py-1  px-3 bg-white text-[#28144c] rounded curser-pointer">Login</Link></div>
+        <div><Link href="/login" className="py-1  px-3 bg-white text-[#28144c] rounded curser-pointer hover:scale-95">Login</Link></div>
       )}
 
 
