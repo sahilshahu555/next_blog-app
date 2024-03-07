@@ -12,8 +12,8 @@ export default function Home() {
            <h1 className="text-2xl md:text-4xl font-bold">Creative Blog Website</h1>
            <p>Managing your time while blogging might feel like a chore. But, there are some apps and websites designed for bloggers like you. </p>
            <div className="Buttons flex gap-10 text-black ">
-             <Link href="/about"><button className=" bg-red-500 px-3 py-1 rounded hover:bg-white hover:scale-95">Learn More</button></Link>
-             <Link href="/contact"><button className="bg-white px-3 py-1 rounded hover:bg-red-500 hover:scale-95">Contact</button></Link>
+             <Link href="/about"><button className=" bg-red-500 px-3 py-1 rounded hover:bg-white hover:text-black hover:scale-95 text-white font-semibold">Learn More</button></Link>
+             <Link href="/contact"><button className="bg-white px-3 py-1 rounded hover:bg-red-500 hover:text-white hover:scale-95 font-semibold">Contact</button></Link>
            </div>
            <div className="Image">
              <Image src="/brands.png" alt="brand" width={500} height={100}/>
