@@ -27,7 +27,7 @@ const Links = () => {
     ]
 
 //temp
-    const session=true;
+    const session=false;
     const isAdmin=true;
 
   return (
