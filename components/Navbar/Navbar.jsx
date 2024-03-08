@@ -9,7 +9,7 @@ const Navbar = () => {
    const[flag,setFlag]=useState(false)
 
   return (
-    <div className='flex justify-around md:justify-between mb-10 gap-20 md:gap-0 sticky top-0 bg-[#281945] py-5 '>
+    <div className='flex justify-around md:justify-between mb-10 gap-20 md:gap-0 sticky top-0 bg-[#281945] py-5 border-b'>
         <div className="text-2xl font-bold">
            <Link href="/blog">Awesome<span className="text-red-500">Blogs</span></Link> 
         </div>
