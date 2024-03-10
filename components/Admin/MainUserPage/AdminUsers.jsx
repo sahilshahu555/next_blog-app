@@ -8,8 +8,8 @@ const AdminUsers = async () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl my-5 text-red-500 font-bold">Users</h1>
-      <div className="grid grid-cols-2 gap-5">
+      <h1 className="text-3xl my-5 text-red-500 font-bold text-center md:text-left">Users</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
       {users.map((user) => (
         <div className="flex items-center justify-between rounded-xl gap-5 bg-slate-400 p-1 " key={user.id}>
           

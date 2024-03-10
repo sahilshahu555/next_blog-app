@@ -8,8 +8,8 @@ const AdminBlogs = async () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl my-5 text-red-500 font-bold">Blogs</h1>
-      <div className="grid grid-cols-2 gap-5">
+      <h1 className="text-3xl my-5 text-red-500 font-bold text-center md:text-left">Blogs</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
       {blogs.map((blog) => (
         <div className="flex justify-between items-center rounded-xl gap-5 bg-slate-400 p-1 " key={blog.id}>
           

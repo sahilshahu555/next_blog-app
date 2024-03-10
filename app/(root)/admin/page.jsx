@@ -9,16 +9,13 @@ const AdminPage = async () => {
   
 
   return (
-    <div className="">
-      <div className="flex justify-center items-center gap-20 mb-10 h-72">
+   
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mb-10 h-72">
         <Link href="/admin/blogs" className="bg-red-500 font-semibold active:scale-95 rounded-xl hover:bg-indigo-500 text-white active:text-black px-3 py-1">Blogs Section</Link>
         <Link href="/admin/users" className="bg-red-500 font-semibold active:scale-95 rounded-xl hover:bg-indigo-500 text-white active:text-black px-3 py-1">Users Section</Link>
       </div>
 
-      {/* <MainBlogPage/>
-      <MainUserPage/> */}
-
-    </div>
+     
   );
 };
 

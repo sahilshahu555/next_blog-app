@@ -7,7 +7,7 @@ const AdminUserForm = () => {
   const [state, formAction] = useFormState(addUser, undefined);
 
   return (
-    <div className="fixed top-[10rem] w-60 right-[5rem]">
+    <div className="md:fixed top-[10rem] w-full md:w-60 right-[5rem]">
       <h1 className="text-2xl text-center my-5 text-red-500 font-bold">Add New User</h1>
     <form action={formAction} className=" BlogForm flex flex-col gap-2 bg-slate-400 p-4 rounded-xl">
       <input type="text" name="username" placeholder="Enter username" required />
