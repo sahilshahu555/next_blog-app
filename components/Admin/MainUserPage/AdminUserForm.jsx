@@ -19,7 +19,7 @@ const AdminUserForm = () => {
         <option value="false">No</option>
         <option value="true">Yes</option>
       </select>
-      <button className="bg-indigo-500 font-semibold active:scale-95 rounded-xl hover:bg-red-500 text-white active:text-black">Add</button>
+      <button className="bg-indigo-500 font-semibold active:scale-95 rounded-xl hover:bg-red-500 text-white active:text-black">Add User</button>
       {state?.error}
     </form>
     </div>

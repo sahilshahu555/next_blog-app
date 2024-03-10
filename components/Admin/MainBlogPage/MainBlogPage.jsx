@@ -16,7 +16,9 @@ const MainBlogPage = async() => {
           </Suspense>
         </div>
         <div className="blogForm w-full md:w-1/4">
-          <AdminBlogForm userId = {session.user.id} />
+            <div className="md:fixed top-[10rem] w-full md:w-60 right-[5rem]">
+             <AdminBlogForm userId = {session.user.id} />
+            </div>
         </div>
       </div>
   )
