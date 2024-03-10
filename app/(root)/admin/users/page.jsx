@@ -4,7 +4,7 @@ import Link from "next/link"
 const AdminUsers = () => {
     return (
      <div>
-         <Link href="/admin/blogs" className="bg-red-500 font-semibold active:scale-95 rounded  hover:bg-indigo-500 text-white active:text-black px-3 py-1">Blogs Section</Link>
+         <Link href="/admin/blogs" className="bg-indigo-500 font-semibold active:scale-95 rounded  hover:bg-red-500 text-white active:text-black px-3 py-1">Blogs Section</Link>
         <MainUserPage/>
     </div>
     )

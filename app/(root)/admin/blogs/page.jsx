@@ -5,7 +5,7 @@ const AdminBlogs = () => {
   return (
    <div>
 
-    <Link href="/admin/users" className="bg-red-500 font-semibold active:scale-95 rounded  hover:bg-indigo-500 text-white active:text-black px-3 py-1">Users Section</Link>
+    <Link href="/admin/users" className="bg-indigo-500 font-semibold active:scale-95 rounded  hover:bg-red-500 text-white active:text-black px-3 py-1">Users Section</Link>
 
     <MainBlogPage/>
     </div>

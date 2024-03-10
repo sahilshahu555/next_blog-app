@@ -10,7 +10,7 @@ const MainBlogPage = async() => {
   return (
     <div className="Blogs flex flex-col-reverse md:flex-row items-center justify-between min-h-980 px-5 ">
        
-        <div className="w-full  md:w-3/4  ">
+        <div className="w-full md:w-1/2 lg:w-3/4  ">
           <Suspense fallback={<div>Loading...</div>}>
             <AdminBlogs />
           </Suspense>
