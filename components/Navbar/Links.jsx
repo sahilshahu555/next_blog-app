@@ -38,9 +38,9 @@ const Links = ({sessions}) => {
       
   return (
     <div>
-        <div className='Laptop hidden lg:flex  flex-col lg:flex-row gap-5 md:gap-10 items-center'>
+        <div className='Laptop hidden lg:flex  flex-col lg:flex-row gap-5 md:gap-10 items-center '>
           {navLinks.map((elm,i)=>(
-            <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer hover:scale-95`}>
+            <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-red-500 font-bold  "} py-1 px-3 rounded-2xl curser-pointer hover:scale-95`}>
               {elm.title}
             </Link>
                 ))}
@@ -65,7 +65,7 @@ const Links = ({sessions}) => {
             <div className="absolute flex flex-wrap z-10  items-center top-14 -right-1 w-[21rem] bg-red-500 rounded-2xl py-5 m-auto text-md gap-5 justify-around font-semibold" onClick={()=>setFlag(!flag)}>
                 
             {navLinks.map((elm,i)=>(
-              <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-[#28144c]  "} py-1 px-3 rounded-2xl curser-pointer hover:scale-95`}>
+              <Link key={i} href={elm.path} className={`${pathName === elm.path && "bg-white text-black font-bold  "} py-1 px-3 rounded-xl curser-pointer hover:scale-95`}>
                 {elm.title}
               </Link>
                   ))}
